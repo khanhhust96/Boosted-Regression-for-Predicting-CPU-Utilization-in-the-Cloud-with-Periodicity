@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Boosted Regression for Predicting CPU Utilization in the Cloud with Periodicity
-=======
 # Boosted Regression for Predicting CPU Utilization in the Cloud with Periodicity
 
 ## Introduction
@@ -34,4 +31,4 @@ pip install arch==5.1.0 keras==2.8.0 matplotlib==3.3.4 numpy==1.21.5 pandas==1.2
 ```bash
 python Adaboost_WLP.py
 ```
->>>>>>> origin/code
+
