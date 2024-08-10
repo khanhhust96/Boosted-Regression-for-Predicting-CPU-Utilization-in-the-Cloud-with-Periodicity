@@ -6,10 +6,10 @@ Precise CPU prediction, however, is a tough challenge due to the variable and dy
 
 ## Project Structure
 
-* **data**: contains the input datasets.
-* **pretrained_models**: contains the model saved after the pretrain phase.
-* **mma_result**: contains the predict result for MIN/MAX/AVG/BEST TradaboostWLP.
-* **result**: contains the predict result for TradaboostWLP, TradaBoostR2 and PA-LSTM.
+* **data** contains the input datasets.
+* **pretrained_models** contains the model saved after the pretrain phase.
+* **mma_result** contains the predict result for MIN/MAX/AVG/BEST TradaboostWLP.
+* **result** contains the predict result for TradaboostWLP, TradaBoostR2 and PA-LSTM.
 
 ## Install dependencies
 ```bash
@@ -21,11 +21,11 @@ pip install arch==5.1.0 keras==2.8.0 matplotlib==3.3.4 numpy==1.21.5 pandas==1.2
 
 
 ## Getting Started
-* **Adaboost_WLP_MMA_BEST.py:** It contains Maximum, Minimum, and Average rules make use of PA-LSTMs
-* **Adaboost_WLP.py:** It contains the TrAdaBoost.WLP algorithm.
-* **PA_LSTM_TFL.py:** It contains the PA-LSTM algorithm with transfers learning.
-* **PA_LSTM_non_TFL.py:** It contains the PA-LSTM algorithm without transfers learning.
-* **TrAdaboostR2.py:** It contains the TrAdaBoost.R2 algorithm.
+* **Adaboost_WLP_MMA_BEST.py** It contains Maximum, Minimum, and Average rules make use of PA-LSTMs
+* **Adaboost_WLP.py** It contains the TrAdaBoost.WLP algorithm.
+* **PA_LSTM_TFL.py** It contains the PA-LSTM algorithm with transfers learning.
+* **PA_LSTM_non_TFLpy:** It contains the PA-LSTM algorithm without transfers learning.
+* **TrAdaboostR2.py** It contains the TrAdaBoost.R2 algorithm.
 
 ## Example command 
 ```bash
